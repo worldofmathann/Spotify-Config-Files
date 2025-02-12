@@ -1,0 +1,200 @@
+{
+    "add_song_to_queue": {
+        "currently_playing": [
+            "🎶 The song '{track_name}' is currently playing. Enjoy the music! 🎧",
+            "🎶🎧 '{track_name}' is playing right now. Please wait until it's finished to make any changes. 🔄",
+            "🎶 '{track_name}' is in playback right now. Hang tight until it's done! ⏰"
+        ],
+        "already_in_queue": [
+            "🔊🚫 '{track_name}' is already queued! Choose a different track or relax until it starts playing. 🎧",
+            " ⚠️ '{track_name}' is already in the queue! Feel free to add another song or wait for it to play next. ⏳",
+            "🚫🎶 The track '{track_name}' is already queued. Add a different one or hang tight until it's time to play! ⏳"
+        ],
+        "song_added": [
+                        "{emoji1} 🆂🅾🅽🅶:{track_name} {emoji2} {emoji3} 🅰🅻🅱🆄🅼: {album_name} {emoji4}  🅰🅳🅳🅴🅳 🅱🆈: {from_name} {emoji5} 🆀🆄🅴🆄🅴: {track_number} {emoji6} 🆁🅴🅼🅰🅸🅽🅸🅽🅶 🆃🅸🅼🅴: {duration} {emoji3} ",
+                        "{emoji1} 🅢🅞🅝🅖:{track_name} {emoji4}{emoji2} 🅐🅛🅑🅤🅜: {album_name} {emoji5} 🅐🅓🅓🅔🅓 🅑🅨: {from_name} {emoji6} 🅠🅤🅔🅤🅔: {track_number} {emoji5} 🅡🅔🅜🅐🅘🅝🅘🅝🅖 🅣🅘🅜🅔: {duration} {emoji3}",
+                        "{emoji2} 🇸​​​​​🇴​​​​​🇳​​​​​🇬​​​​​:{track_name} {emoji1}{emoji4} 🇦​​​​​🇱​​​​​🇧​​​​​🇺​​​​​🇲​​​​​: {album_name} {emoji3} 🇦​​​​​🇩​​​​​🇩​​​​​🇪​​​​​🇩​​​​​ 🇧​​​​​🇾​​​​​: {from_name} {emoji6} 🇶​​​​​🇺​​​​​🇪​​​​​🇺​​​​​🇪​​​​​: {track_number} {emoji5}"
+        ],
+        "song_not_found": "🎶🔍🚫 Oops! Can't find the song on Spotify 🚫🔍🎶"
+    },
+    "faded_sound_change": {
+        "volume_adjusted": [
+    "🎛️ Volume Shift: {from_name} changed the volume to {volume}% 🔄 Smooth transition!",
+    "🔊 New Level: {from_name} adjusted the volume to {volume}% 🚀 Let's vibe!",
+    "🎧 Volume Update: {from_name} set the volume to {volume}% 🎶 Enjoy the tune!",
+    "📢 Sound Adjustment: {from_name} tuned it to {volume}% 🔧 Perfectly balanced.",
+    "🔄 Volume Tweaked: {from_name} moved it to {volume}% ⚙️ Time to listen!"
+],
+        "no_playback_info": "Nᴏ ᴘʟᴀʏʙᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀᴠᴀɪʟᴀʙʟᴇ."
+    },
+    "get_spotify_queue": {
+        "queue_messages": [
+            "🎵 Up next:\n",
+            "🎶 Incoming:\n",
+            "🔜 Next up:\n",
+            "🎧 Ready for:\n",
+            "🎶 Queue update:\n",
+            "🎵 Tune in for:\n",
+            "🎶 On deck:\n"
+        ],
+        "no_song_in_queue": "\uD83C\uDFB6 There are no songs in the queue."
+    },
+    "change_next_song": {
+        "Song_changed": ["Skipped to the next track by {from_name}."],
+        "Song_not_changed": "Spotify client is not initialized."
+    },
+    "pause_playback": {
+        "pause": ["Playback paused by {from_name}."],
+        "play": ["Playback resumed by {from_name}."],
+        "no_playback_info": "No playback information available."
+    },
+    "play_playlist": {
+        "playlist": "Nᴏᴡ ᴘʟᴀʏɪɴɢ ᴘʟᴀʏʟɪsᴛ: {results}",
+        "None": "Pʟᴀʏʟɪsᴛ ɴᴏᴛ ғᴏᴜɴᴅ."
+    },
+    "seek_song": {
+        "seek": [
+            "Sᴏɴɢ {direction}ᴇᴅ ʙʏ {seconds} sᴇᴄᴏɴᴅs.",
+            "ₘₒᵥₑd {direction} {seconds} ₛₑ𝄴ₒₙdₛ 𝆑ₒᵣwₐᵣd/ᵦₐ𝄴ₖwₐᵣd․",
+            "𝐴𝑑𝑣𝑎𝑛𝑐𝑒𝑑 {direction} 𝑏𝑦 {seconds} 𝑠𝑒𝑐𝑜𝑛𝑑𝑠.",
+            "𝑺𝒆𝒆𝒌𝒆𝒅 {direction} 𝒃𝒚 {seconds} 𝒔𝒆𝒄𝒐𝒏𝒅𝒔."
+        ]
+    },
+    "now_playing": {
+        "added_by": [
+            "{emoji1} 🅽🅾🆆 🅿🅻🅰🆈🅸🅽🅶: {song_name} {emoji2}{emoji3} 🅰🅻🅱🆄🅼: {album_name} {emoji4} 🅰🅳🅳🅴🅳 🅱🆈: {added_by}",
+            "{emoji1} 🇳​​​​​🇴​​​​​🇼​​​​​ 🇵​​​​​🇱​​​​​🇦​​​​​🇾​​​​​🇮​​​​​🇳​​​​​🇬​​​​​: {song_name} {emoji2}{emoji3} 🇦​​​​​🇱​​​​​🇧​​​​​🇺​​​​​🇲​​​​​: {album_name} {emoji4} 🅰🅳🅳🅴🅳 🅱🆈: {added_by}"
+        ],
+        "Non_Added": [
+            "{emoji1} 🅽🅾🆆 🅿🅻🅰🆈🅸🅽🅶:  {song_name} {emoji2}{emoji3} 🅰🅻🅱🆄🅼: {album_name} {emoji4}",
+            "{emoji1} 🇳​​​​​🇴​​​​​🇼​​​​​ 🇵​​​​​🇱​​​​​🇦​​​​​🇾​​​​​🇮​​​​​🇳​​​​​🇬​​​​​: {song_name} {emoji2}{emoji3} 🇦​​​​​🇱​​​​​🇧​​​​​🇺​​​​​🇲​​​​​: {album_name} {emoji4}"
+        ]
+    },
+    "blocked_list": {
+        "blocked": [
+                        "🚫 Sᴏʀʀʏ, {message_name} ɪs ᴄᴜʀʀᴇɴᴛʟʏ ʙʟᴏᴄᴋᴇᴅ ғʀᴏᴍ ᴄᴏɴᴛʀᴏʟʟɪɴɢ ᴛʜᴇ Sᴘᴏᴛɪғʏ ʙᴏᴛ. Wᴇ'ʀᴇ ᴍᴀɴᴀɢɪɴɢ ᴀᴄᴄᴇss ғᴏʀ ʙᴇᴛᴛᴇʀ ᴄᴏɴᴛʀᴏʟ ᴀɴᴅ ᴇғғɪᴄɪᴇɴᴄʏ. 🎶"
+                    ]
+},
+    "Non_follower": {
+        "non_follower": [
+            "User {from_name} is not eligible to request songs. Follow the {botname} to become eligible and vibe along with the music!"
+        ],
+      "wait_message": ["{from_name}, please wait {wait_time}  before sending your next message."]
+    },
+    "else": {
+        "else_message": "User {from_name} is ineligible to use the '{text_message}' command. Please ask {OwnersName} to add you as eligible."
+    },
+    "Forward": {
+        "Forward_message": "Invalid number of seconds. Please provide a valid integer."
+    },
+    "Backward": {
+        "Backward_message": "Invalid number of seconds. Please provide a valid integer."
+    },
+    "Add_Command": {
+        "Unable_Add": ["🚷 Uɴᴀʙʟᴇ ᴛᴏ ᴀᴅᴅ ᴜsᴇʀ: Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ sᴘᴇᴄɪғɪᴇᴅ ғᴏʀ ᴇʟɪɢɪʙɪʟɪᴛʏ. 🛑",
+                          "⚠️ Eʀʀᴏʀ: Tʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴇʟɪɢɪʙʟᴇ ᴛᴏ ʙᴇ ᴀᴅᴅᴇᴅ. Pʟᴇᴀsᴇ ᴅᴏᴜʙʟᴇ-ᴄʜᴇᴄᴋ ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ. ⚠️",
+                          "❗️Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ғᴏʀ ᴇʟɪɢɪʙɪʟɪᴛʏ. Pʟᴇᴀsᴇ ɪɴᴘᴜᴛ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. ❗️",
+                          "🛑 Eʀʀᴏʀ: Tʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ᴀᴅᴅɪɴɢ ᴛᴏ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ ᴜsᴇʀs ʟɪsᴛ. Pʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. 🚫"
+                          ],
+        "Added": [
+                        "🎶🔊 𝑆𝑝𝑒𝑎𝑘𝑒𝑟 {name} ℎ𝑎𝑠 𝑏𝑒𝑒𝑛 𝑎𝑑𝑑𝑒𝑑 𝑎𝑠 𝑎𝑛 𝑒𝑙𝑖𝑔𝑖𝑏𝑙𝑒 𝑢𝑠𝑒𝑟 𝑡𝑜 𝑐𝑜𝑛𝑡𝑟𝑜𝑙 𝑡ℎ𝑒 𝑀𝑢𝑠𝑖𝑐 𝑃𝑙𝑎𝑦𝑒𝑟. 🎵",
+                        "🎵🔊 ᴴᵒᵒʳᵃʸ! ᔆᵖᵉᵃᵏᵉʳ {name} ⁱˢ ⁿᵒʷ ᵉˡⁱᵍⁱᵇˡᵉ ᵗᵒ ᶜᵒⁿᵗʳᵒˡ ᵗʰᵉ ᴹᵘˢⁱᶜ ᴾˡᵃʸᵉʳ‧ 🎶",
+                        " 🎶🔊 Exᴄɪᴛɪɴɢ ɴᴇᴡs! Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ɢʀᴀɴᴛᴇᴅ ᴀᴄᴄᴇss ᴛᴏ ᴄᴏɴᴛʀᴏʟ ᴛʜᴇ Mᴜsɪᴄ Pʟᴀʏᴇʀ. 🎵",
+                        " 🎵🔊 𝙰𝚝𝚝𝚎𝚗𝚝𝚒𝚘𝚗, 𝙰𝚝𝚝𝚎𝚗𝚝𝚒𝚘𝚗! {name} 𝚒𝚜 𝚗𝚘𝚠 𝚊𝚞𝚝𝚑𝚘𝚛𝚒𝚣𝚎𝚍 𝚝𝚘 𝚌𝚘𝚗𝚝𝚛𝚘𝚕 𝚝𝚑𝚎 𝙼𝚞𝚜𝚒𝚌 𝙿𝚕𝚊𝚢𝚎𝚛. 🎶",
+                        " 🎶🔊 Bɪɢ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ! {name} ʜᴀs ᴊᴏɪɴᴇᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇʟɪɢɪʙʟᴇ ᴜsᴇʀs ᴛᴏ ᴄᴏɴᴛʀᴏʟ ᴛʜᴇ Mᴜsɪᴄ Pʟᴀʏᴇʀ. 🎵"
+                    ],
+        "else": [
+                    "🚫👤🛑 Nᴏ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ. Pʟᴇᴀsᴇ ᴜsᴇ @adduser ᴏʀ @add ғᴏʟʟᴏᴡᴇᴅ ʙʏ ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀ ᴜsᴇʀ. Exᴀᴍᴘʟᴇ: @a ᴜsᴇʀɴᴀᴍᴇ @add ᴜsᴇʀɴᴀᴍᴇ.",
+                    "⚠️🚷❗️ Usᴇʀɴᴀᴍᴇ ɪs ᴍɪssɪɴɢ. Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴜsᴇʀɴᴀᴍᴇ ᴀғᴛᴇʀ @add or @a sᴘᴀᴄᴇ ᴜsᴇʀɴᴀᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ ʟɪsᴛ. ❗️🚷⚠️",
+                    "🛑👥🚫 Usᴇʀɴᴀᴍᴇ ɴᴏᴛ sᴘᴇᴄɪғɪᴇᴅ ғᴏʀ ᴀᴅᴅɪᴛɪᴏɴ. Pʟᴇᴀsᴇ ᴍᴇɴᴛɪᴏɴ ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴀғᴛᴇʀ @add or @ ᴛᴏ ᴀᴅᴅ ᴛʜᴇᴍ. 🚫👥🛑"
+                ]
+    },
+    "Remove_Command": {
+        "Unable_Remove": [
+                        "🛑 Eʀʀᴏʀ: Tʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ ғʀᴏᴍ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ ᴜsᴇʀs ʟɪsᴛ. Pʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. 🚫",
+                        "🚷 Uɴᴀʙʟᴇ ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ: Tʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴇʟɪɢɪʙʟᴇ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ. Pʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🛑️",
+                        "🚫 Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ. Pʟᴇᴀsᴇ ᴇɴsᴜʀᴇ ʏᴏᴜ ɪɴᴘᴜᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🛑",
+                        "⚠️ Eʀʀᴏʀ: Tʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ ғʀᴏᴍ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ ᴜsᴇʀs ʟɪsᴛ. Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ. ⚠️"
+                    ],
+        "Removed": ["🎵 Uᴘᴅᴀᴛᴇ: {name} ɪs ɴᴏ ʟᴏɴɢᴇʀ ᴏɴ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ Mᴜsɪᴄ Cᴏɴᴛʀᴏʟ ᴜsᴇʀs ʟɪsᴛ. 🚫",
+                                " 🎶 Aᴛᴛᴇɴᴛɪᴏɴ: {name} ʜᴀs ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ᴛʜᴇ Mᴜsɪᴄ Cᴏɴᴛʀᴏʟ ᴜsᴇʀs ʟɪsᴛ. 📜",
+                                " 🎵 Aɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ: {name} ɪs ɴᴏ ᴍᴏʀᴇ ᴘᴀʀᴛ ᴏғ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ Mᴜsɪᴄ Cᴏɴᴛʀᴏʟ ᴜsᴇʀs. 🚫",
+                                " 🎶 Hᴇᴀᴅs ᴜᴘ: {name} ʜᴀs ʙᴇᴇɴ ᴛᴀᴋᴇɴ ᴏғғ ᴛʜᴇ Mᴜsɪᴄ Cᴏɴᴛʀᴏʟ ᴜsᴇʀs ʟɪsᴛ. 📜",
+                                " 🎛🎵 Aʟᴇʀᴛ: {name} ɪs ɴᴏ ʟᴏɴɢᴇʀ ᴇʟɪɢɪʙʟᴇ ғᴏʀ Mᴜsɪᴄ Cᴏɴᴛʀᴏʟ ᴀᴄᴄᴇss. 🚫"
+                                ],
+        "else": [
+                    "🚫👤🛑 Nᴏ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ. Pʟᴇᴀsᴇ ᴜsᴇ @adduser ᴏʀ @add ғᴏʟʟᴏᴡᴇᴅ ʙʏ ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀ ᴜsᴇʀ. Exᴀᴍᴘʟᴇ: @remove ᴜsᴇʀɴᴀᴍᴇ @remove ᴜsᴇʀɴᴀᴍᴇ.",
+                    "⚠️🚷❗️ Usᴇʀɴᴀᴍᴇ ɪs ᴍɪssɪɴɢ. Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴜsᴇʀɴᴀᴍᴇ ᴀғᴛᴇʀ @remove or @adduser sᴘᴀᴄᴇ ᴜsᴇʀɴᴀᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴛʜᴇ ᴇʟɪɢɪʙʟᴇ ʟɪsᴛ. ❗️🚷⚠️",
+                    "🛑👥🚫 Usᴇʀɴᴀᴍᴇ ɴᴏᴛ sᴘᴇᴄɪғɪᴇᴅ ғᴏʀ ᴀᴅᴅɪᴛɪᴏɴ. Pʟᴇᴀsᴇ ᴍᴇɴᴛɪᴏɴ ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴀғᴛᴇʀ @remove or @r ᴛᴏ ᴀᴅᴅ ᴛʜᴇᴍ. 🚫👥🛑"
+                ]
+    },
+    "Queue_Cleared": {
+        "Cleared": "Tʜᴇ Qᴜᴇᴜᴇ ɪs ᴄʟᴇᴀʀᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ ʙʏ {from_name}"
+    },
+  "Vol_Level": {
+        "Invalid_level": "Invalid volume value. Please enter a value between 0 and 100.",
+        "Invalid_Value": "Invalid volume value. Please enter a numeric value."
+    },
+  "Lock_command": {
+        "Locked": [
+                    "🔒 Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ᴛᴇᴍᴘᴏʀᴀʀɪʟʏ ʙʟᴏᴄᴋᴇᴅ ғʀᴏᴍ sᴏɴɢ ʀᴇᴏ̨ᴜᴇsᴛs ᴀɴᴅ ᴀᴅᴅɪᴛɪᴏɴs. ⛔",
+                    "🔇 Dᴜᴇ ᴛᴏ ᴠɪᴏʟᴀᴛɪᴏɴs, Sᴘᴇᴀᴋᴇʀ {name} ɪs ᴛᴇᴍᴘᴏʀᴀʀɪʟʏ ᴜɴᴀʙʟᴇ ᴛᴏ ʀᴇᴏ̨ᴜᴇsᴛ ᴏʀ ᴀᴅᴅ sᴏɴɢs. 🚷",
+                    "⚠️ Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ʙʟᴏᴄᴋᴇᴅ ғʀᴏᴍ sᴏɴɢ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴs ᴜɴᴛɪʟ ғᴜʀᴛʜᴇʀ ɴᴏᴛɪᴄᴇ. 🚫",
+                    "🚷 Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ʀᴇsᴛʀɪᴄᴛᴇᴅ ғʀᴏᴍ sᴏɴɢ ʀᴇᴏ̨ᴜᴇsᴛs ᴀɴᴅ ᴀᴅᴅɪᴛɪᴏɴs. 🚫",
+                    "🚫 Sᴘᴇᴀᴋᴇʀ {name}'s ᴀʙɪʟɪᴛʏ ᴛᴏ ʀᴇᴏ̨ᴜᴇsᴛ ᴀɴᴅ ᴀᴅᴅ sᴏɴɢs ʜᴀs ʙᴇᴇɴ sᴜsᴘᴇɴᴅᴇᴅ. ⛔"
+                ],
+
+        "else": ["🚷 Uɴᴀʙʟᴇ ᴛᴏ ᴀᴅᴅ ᴜsᴇʀ: Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ sᴘᴇᴄɪғɪᴇᴅ ғᴏʀ ʙʟᴏᴄᴋᴇᴅ. 🛑",
+                      "⚠️ Eʀʀᴏʀ: Tʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴇʟɪɢɪʙʟᴇ ᴛᴏ ʙᴇ ᴀᴅᴅᴇᴅ. Pʟᴇᴀsᴇ ᴅᴏᴜʙʟᴇ-ᴄʜᴇᴄᴋ ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ. ⚠️",
+                      "❗️Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ғᴏʀ ʙʟᴏᴄᴋ. Pʟᴇᴀsᴇ ɪɴᴘᴜᴛ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. ❗️",
+                      "🛑 Eʀʀᴏʀ: Tʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ʙʟᴏᴄᴋɪɴɢ ᴛᴏ ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ. Pʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. 🚫"
+                      ]
+    },
+  "UnLock_command": {
+        "Unlocked": [
+                    "🔓 Sᴘᴇᴀᴋᴇʀ {name} ɪs ʙᴀᴄᴋ! Tʜᴇʏ'ᴠᴇ ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ. Lᴇᴛ ᴛʜᴇ sᴏɴɢ ʀᴇᴏ̨ᴜᴇsᴛs ʙᴇɢɪɴ! 🎶",
+                    "🎉 Gᴏᴏᴅ ɴᴇᴡs! Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ᴜɴʙʟᴏᴄᴋᴇᴅ. Tɪᴍᴇ ᴛᴏ sᴛᴀʀᴛ ʀᴇᴏ̨ᴜᴇsᴛɪɴɢ sᴏɴɢs ᴀɢᴀɪɴ! 🎵",
+                    "🔓 Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ɢʀᴀɴᴛᴇᴅ ᴀᴄᴄᴇss ᴀɢᴀɪɴ! Rᴇᴏ̨ᴜᴇsᴛ ᴀᴡᴀʏ ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ! 🎶",
+                    "🔓 Tʜᴇ ʙʟᴏᴄᴋ ʜᴀs ʙᴇᴇɴ ʟɪғᴛᴇᴅ ғᴏʀ Sᴘᴇᴀᴋᴇʀ {name}. Tʜᴇʏ'ʀᴇ ɴᴏᴡ ғʀᴇᴇ ᴛᴏ ʀᴇᴏ̨ᴜᴇsᴛ sᴏɴɢs ᴏɴᴄᴇ ᴍᴏʀᴇ! 🎵",
+                    "🎊 Rᴇᴊᴏɪᴄᴇ! Sᴘᴇᴀᴋᴇʀ {name} ʜᴀs ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ. Lᴇᴛ ᴛʜᴇ ᴍᴜsɪᴄ ʀᴇᴏ̨ᴜᴇsᴛs ғʟᴏᴡ! 🎶"
+                ],
+
+        "else": [
+                    "🛑 Eʀʀᴏʀ: Tʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ ғʀᴏᴍ ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ. Pʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. 🚫",
+                    "🚷 Uɴᴀʙʟᴇ ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ: Tʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ʙʟᴏᴄᴋᴇᴅ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ. Pʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🛑️",
+                    "🚫 Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ. Pʟᴇᴀsᴇ ᴇɴsᴜʀᴇ ʏᴏᴜ ɪɴᴘᴜᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🛑",
+                    "⚠️ Eʀʀᴏʀ: Tʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ ғʀᴏᴍ ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ. Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ. ⚠️"
+                ]
+    },
+  "Mod_command": {
+        "Passed": ["👏 A ʙɪɢ ᴛʜᴀɴᴋ ʏᴏᴜ ᴛᴏ {name} ғᴏʀ ʙᴇᴄᴏᴍɪɴɢ ᴀ ᴍᴏᴅᴇʀᴀᴛᴏʀ, ᴀɴᴅ sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ {from_name} ғᴏʀ ᴍᴀᴋɪɴɢ ɪᴛ ʜᴀᴘᴘᴇɴ!",
+          "🎉 Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs ᴛᴏ {name} ғᴏʀ sᴛᴇᴘᴘɪɴɢ ᴜᴘ ᴀs ᴀ ᴍᴏᴅᴇʀᴀᴛᴏʀ! Hᴜɢᴇ ᴛʜᴀɴᴋs ᴛᴏ {from_name} ғᴏʀ ᴇɴᴛʀᴜsᴛɪɴɢ ᴛʜᴇᴍ ᴡɪᴛʜ ᴛʜɪs ʀᴏʟᴇ!",
+          "🙌 Lᴇᴛ’s ᴡᴇʟᴄᴏᴍᴇ {name} ᴀs ᴏᴜʀ ɴᴇᴡ ᴍᴏᴅᴇʀᴀᴛᴏʀ! Aɴᴅ ᴀ ʙɪɢ sʜᴏᴜᴛᴏᴜᴛ ᴛᴏ {from_name} ғᴏʀ ɢɪᴠɪɴɢ ᴛʜᴇᴍ ᴛʜᴇ ᴏᴘᴘᴏʀᴛᴜɴɪᴛʏ. Tʜᴀɴᴋ ʏᴏᴜ ʙᴏᴛʜ!",
+          "✨ Wᴇ'ʀᴇ ᴇxᴄɪᴛᴇᴅ ᴛᴏ ʜᴀᴠᴇ {name} ᴀs ᴀ ᴍᴏᴅᴇʀᴀᴛᴏʀ! Tʜᴀɴᴋ ʏᴏᴜ, {from_name}, ғᴏʀ ʏᴏᴜʀ ᴛʀᴜsᴛ ᴀɴᴅ ғᴏʀ ᴇᴍᴘᴏᴡᴇʀɪɴɢ ᴛʜᴇᴍ ᴛᴏ ʜᴇʟᴘ ᴜs!",
+          "🚀 Sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ {from_name} ғᴏʀ ᴀᴘᴘᴏɪɴᴛɪɴɢ {name} ᴀs ᴏᴜʀ ɴᴇᴡ ᴍᴏᴅᴇʀᴀᴛᴏʀ. Wᴇ'ʀᴇ ʟᴜᴄᴋʏ ᴛᴏ ʜᴀᴠᴇ ʙᴏᴛʜ ᴏғ ʏᴏᴜ ᴏɴ ᴏᴜʀ sɪᴅᴇ!"
+        ],
+
+        "else": [
+                        "🛑 Eʀʀᴏʀ: Tʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ғᴏʀ ʙᴇᴄᴏᴍɪɴɢ ᴀ ᴍᴏᴅᴇʀᴀᴛᴏʀ. Pʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴀ ᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ. 🚫",
+                        "🚷 Uɴᴀʙʟᴇ ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ: Tʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴇʟɪɢɪʙʟᴇ ʙᴇᴄᴏᴍɪɴɢ ᴀ ᴍᴏᴅᴇʀᴀᴛᴏʀ. Pʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🛑️",
+                        "🚫 Iɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ғᴏʀ ʀᴇᴍᴏᴠᴀʟ. Pʟᴇᴀsᴇ ᴇɴsᴜʀᴇ ʏᴏᴜ ɪɴᴘᴜᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🛑",
+                        "⚠️ Eʀʀᴏʀ: Tʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀɴᴀᴍᴇ ɪs ɴᴏᴛ ᴠᴀʟɪᴅ ʙᴇᴄᴏᴍɪɴɢ ᴀ ᴍᴏᴅᴇʀᴀᴛᴏʀ. Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ. ⚠️"
+                    ]
+    },
+  "TTS": {
+    "Queue": "The Song {track_name} Has Been Added By {from_name}",
+    "Now_With_Added": "Now Playing {song_name} Added By {added_by}",
+    "Now_Without_Added": "Now Playing {song_name} "
+  },
+  "Help_Message": {
+  "message": "Hey {from_name} 👋, I have sent you the list of commands 📜 in a private message 📩. Please check your Inbox 📥 or Message Requests 📬."
+},
+  "Welcome_Message": {
+    "message": ["Hey {name}, welcome aboard! 🎉 Join the vibe, and don’t forget to clear the 🎟 from your profile! 🌟",
+      "Welcome, {name}! 🎉 Dive in, vibe with the crew, and wipe the 🎟 from your profile! 💫",
+      "Glad to have you, {name}! 🎉 Let’s vibe together—remember to remove the 🎟 from your profile! 🌟",
+      "Welcome, {name}! 🎉 Jump in, vibe with us, and swipe the 🎟 off your profile! 🔥",
+      "{name}, we’re excited you’re here! 🎉 Let’s vibe—don’t forget to clean the 🎟 from your profile! 💫"
+    ]
+  }
+}
