@@ -1,0 +1,67 @@
+{
+    "song_commands": ["@p", "#p", "/p", "@play", "#play", "/play"],
+    "next_commands": ["@next", "/next", "#next","/n", "@n", "#n"],
+    "queue_commands": ["@queue", "/queue", "#queue", "@q", "/q", "#q"],
+    "add_commands": ["@add", "/add", "#add", "@a", "/a", "#a"],
+    "remove_commands": ["@remove", "/remove", "#remove", "@r", "/r", "#r"],
+    "clear_commands": ["@clear", "/clear", "#clear", "@c", "/c", "#c"],
+    "volume_commands": ["@volume", "/volume", "#volume", "@v", "/v", "#v"],
+    "pause_commands": ["@stop", "/stop", "#stop"],
+    "resume_commands": ["@resume", "/resume", "#resume"],
+    "list_commands": ["@listplay", "/listplay", "#listplay", "#lp", "/lp", "@lp"],
+    "forward_commands": ["@forward", "/forward", "#forward", "@fwd", "/fwd", "#fwd"],
+    "backward_commands": ["@backward", "/backward", "#backward", "@bwd", "/bwd", "#bwd"],
+    "lock_commands": ["@lock", "/lock", "#lock", "@l", "/l", "#l"],
+    "unlock_commands": ["@unlock", "/unlock", "#unlock", "@ul", "/ul", "#ul"],
+    "help_commands": ["@help", "/help", "#help", "$help", "@h", "/h", "#h", "$h"],
+    "Mod_Commands": ["@mod", "/mod", "#mod", "@m", "/m", "#m"],
+    "OwnersName": "ᎷΛƝᎷΛᎢᎻΛƝ 🩶",
+    "timedelay": 5,
+    "voice_mod": "off",
+    "input_options": {
+        "1": "Spotify Request Application Only (Without Other Functions)",
+        "2": "Req With NowPlaying Room_chat Only",
+        "3": "Update Links with NowPlaying",
+        "4": "Use All Features",
+        "5": "Use All Features Without Update Photo"
+    },
+
+    "invite_mode": {
+        "message_on": true,
+        "message_only": false,
+        "invite_only": true
+    },
+
+    "MirrorModeEmoji": true,
+    "MirrorModeGif": false,
+    "title_protection": false,
+
+"commands_descriptions": [
+        "🎵 Cᴏᴍᴍᴀɴᴅs ғᴏʀ Pʟᴀʏɪɴɢ: - @p, #p, /p, @play, #play, /play",
+        "⏩ Cᴏᴍᴍᴀɴᴅs ғᴏʀ Nᴇxᴛ Tʀᴀᴄᴋ: - @next, /next, #next, /n, @n, #n",
+        "📝 Qᴜᴇᴜᴇ Cᴏᴍᴍᴀɴᴅs: - @queue, /queue, #queue, @q, /q, #q",
+        "➕ Aᴅᴅ ᴛᴏ Eʟɪɢɪʙʟᴇ Usᴇʀs: - @add, /add, #add, @a, /a, #a",
+        "❌ Rᴇᴍᴏᴠᴇ ғʀᴏᴍ Eʟɪɢɪʙʟᴇ Usᴇʀs: - @remove, /remove, #remove, @r, /r, #r",
+        "🔒 Lᴏᴄᴋ Cᴏɴᴛʀᴏʟs: - @lock, /lock, #lock, @l, /l, #l",
+        "🔓 Uɴʟᴏᴄᴋ Cᴏɴᴛʀᴏʟs: - @unlock, /unlock, #unlock, @ul, /ul, #ul",
+        "🔊 Aᴅᴊᴜsᴛ Vᴏʟᴜᴍᴇ: - @volume, /volume, #volume, @v, /v, #v",
+        "⏸️ Pᴀᴜsᴇ Pʟᴀʏʙᴀᴄᴋ: - @pause, /pause, #pause",
+        "▶️ Rᴇsᴜᴍᴇ Pʟᴀʏʙᴀᴄᴋ: - @resume, /resume, #resume, $resume",
+        "🎶 Pʟᴀʏʟɪsᴛ Cᴏᴍᴍᴀɴᴅs: - @listplay, /listplay, #listplay, @lp, /lp, #lp",
+        "⏩ Sᴋɪᴘ Fᴏʀᴡᴀʀᴅ: - @forward, /forward, #forward, @fwd, /fwd, #fwd",
+        "⏪ Sᴋɪᴘ Bᴀᴄᴋᴡᴀʀᴅ: - @backward, /backward, #backward, @bwd, /bwd, #bwd",
+        "🧹 Cʟᴇᴀʀ Qᴜᴇᴜᴇ: - @clear, /clear, #clear, @c, /c, #c",
+        "💬 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴏʀ ɪɴᴏ̨ᴜɪʀɪᴇs, ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ {OwnersName} "
+    ],
+  "startup_message": "\uD83C\uDFA7 Sᴘᴏᴛɪғʏ Cʟᴜʙʜᴏᴜsᴇ Bᴏᴛ ɪs ʟɪᴠᴇ! \uD83D\uDE80 Rᴇᴏ̨ᴜᴇsᴛ sᴏɴɢs \uD83C\uDFB6 ᴏʀ ᴘʟᴀʏʟɪsᴛs \uD83C\uDFB5 ᴀɴᴅ ʟᴇᴛ ᴛʜᴇ ᴍᴜsɪᴄ ғʟᴏᴡ \uD83C\uDFA7. Tʏᴘᴇ << @help >> ғᴏʀ ᴅᴇᴛᴀɪʟs. Lᴇᴛ’s ɢᴇᴛ ᴛʜᴇ ᴘᴀʀᴛʏ sᴛᴀʀᴛᴇᴅ! \uD83C\uDF89",
+    "use_join": false,
+    "use_msg": true,
+    "helper_tokens": [
+        "<YOUR HELPER TOKENS>",
+        "<YOUR HELPER TOKENS>",
+        "<YOUR HELPER TOKENS>",
+        "<YOUR HELPER TOKENS>",
+        "<YOUR HELPER TOKENS>",
+        "<YOUR HELPER TOKENS>"
+    ]
+}
