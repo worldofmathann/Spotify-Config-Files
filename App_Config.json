@@ -34,7 +34,8 @@
 
     "MirrorModeEmoji": true,
     "MirrorModeGif": false,
-    "title_protection": false,
+    "title_protection": true,
+    "manual_title": "Request Your Fav Songs🎧 Use << @help >> For More Info",
 
 "commands_descriptions": [
         "🎵 Cᴏᴍᴍᴀɴᴅs ғᴏʀ Pʟᴀʏɪɴɢ: - @p, #p, /p, @play, #play, /play",
