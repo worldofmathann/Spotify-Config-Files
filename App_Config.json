@@ -58,6 +58,7 @@
   "startup_message": "\uD83C\uDFA7 Sᴘᴏᴛɪғʏ Cʟᴜʙʜᴏᴜsᴇ Bᴏᴛ ɪs ʟɪᴠᴇ! \uD83D\uDE80 Rᴇᴏ̨ᴜᴇsᴛ sᴏɴɢs \uD83C\uDFB6 ᴏʀ ᴘʟᴀʏʟɪsᴛs \uD83C\uDFB5 ᴀɴᴅ ʟᴇᴛ ᴛʜᴇ ᴍᴜsɪᴄ ғʟᴏᴡ \uD83C\uDFA7. Tʏᴘᴇ << @help >> ғᴏʀ ᴅᴇᴛᴀɪʟs. Lᴇᴛ’s ɢᴇᴛ ᴛʜᴇ ᴘᴀʀᴛʏ sᴛᴀʀᴛᴇᴅ! \uD83C\uDF89",
     "use_join": false,
     "use_msg": true,
+    "eligible_users": [1210770739],
     "helper_tokens": [
         "<YOUR HELPER TOKENS>",
         "<YOUR HELPER TOKENS>",
