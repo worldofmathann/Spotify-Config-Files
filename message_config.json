@@ -191,12 +191,15 @@
 },
 
   "Welcome_Message": {
-    "message": ["Hey {name}, welcome aboard! 🎉 Join the vibe, and don’t forget to clear the 🎟 from your profile! 🌟",
-      "Welcome, {name}! 🎉 Dive in, vibe with the crew, and wipe the 🎟 from your profile! 💫",
-      "Glad to have you, {name}! 🎉 Let’s vibe together—remember to remove the 🎟 from your profile! 🌟",
-      "Welcome, {name}! 🎉 Jump in, vibe with us, and swipe the 🎟 off your profile! 🔥",
-      "{name}, we’re excited you’re here! 🎉 Let’s vibe—don’t forget to clean the 🎟 from your profile! 💫"
-    ],
-    "title_message": "Hey {from_name} ⚠\uFE0F Title change not allowed! \uD83D\uDEAB Get permission from {OwnersName} ✅"
-  }
+        "message": [
+            "Hey {name}, welcome aboard! 🎉 Join the vibe, and don’t forget to clear the 🎟 from your profile! 🌟",
+            "Welcome, {name}! 🎉 Dive in, vibe with the crew, and wipe the 🎟 from your profile! 💫",
+            "Glad to have you, {name}! 🎉 Let’s vibe together—remember to remove the 🎟 from your profile! 🌟",
+            "Welcome, {name}! 🎉 Jump in, vibe with us, and swipe the 🎟 off your profile! 🔥",
+            "{name}, we’re excited you’re here! 🎉 Let’s vibe—don’t forget to clean the 🎟 from your profile! 💫"
+        ]
+        },
+  "title_change": {
+            "message": ["Hey {from_name} ⚠️ Title change not allowed! 🚫 Get permission from {OwnersName} ✅"]
+    }
 }
