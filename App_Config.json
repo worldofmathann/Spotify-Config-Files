@@ -17,6 +17,7 @@
     "Mod_Commands": ["@mod", "/mod", "#mod", "@m", "/m", "#m"],
     "OwnersName": "ᎷΛƝᎷΛᎢᎻΛƝ 🩶",
     "timedelay": 5,
+    "follow_only_req": true,
     "voice_mod": "off",
     "input_options": {
         "1": "Spotify Request Application Only (Without Other Functions)",
