@@ -1,5 +1,6 @@
 {
     "song_commands": ["@p", "#p", "/p", "@play", "#play", "/play"],
+    "dedicate_commands": ["@ded", "#ded", "/ded", "@dedicate", "#dedicate", "/dedicate"],
     "next_commands": ["@next", "/next", "#next","/n", "@n", "#n"],
     "queue_commands": ["@queue", "/queue", "#queue", "@q", "/q", "#q"],
     "add_commands": ["@add", "/add", "#add", "@a", "/a", "#a"],
@@ -15,10 +16,11 @@
     "unlock_commands": ["@unlock", "/unlock", "#unlock", "@ul", "/ul", "#ul"],
     "help_commands": ["@help", "/help", "#help", "$help", "@h", "/h", "#h", "$h"],
     "Mod_Commands": ["@mod", "/mod", "#mod", "@m", "/m", "#m"],
+    "Get_Commands": ["@get", "/get", "#get", "@g", "/g", "#g"],
     "OwnersName": "ᎷΛƝᎷΛᎢᎻΛƝ 🩶",
-    "timedelay": 5,
-    "follow_only_req": true,
+    "timedelay": 2,
     "voice_mod": "off",
+    "follow_only_req": false,
     "input_options": {
         "1": "Spotify Request Application Only (Without Other Functions)",
         "2": "Req With NowPlaying Room_chat Only",
@@ -37,6 +39,8 @@
     "MirrorModeGif": false,
     "title_protection": true,
     "manual_title": "Request Your Fav Songs🎧 Use << @help >> For More Info",
+    "autoskip_mode": true,
+    "profile_info": true,
 
 "commands_descriptions": [
         "🎵 Cᴏᴍᴍᴀɴᴅs ғᴏʀ Pʟᴀʏɪɴɢ: - @p, #p, /p, @play, #play, /play",
@@ -53,18 +57,11 @@
         "⏩ Sᴋɪᴘ Fᴏʀᴡᴀʀᴅ: - @forward, /forward, #forward, @fwd, /fwd, #fwd",
         "⏪ Sᴋɪᴘ Bᴀᴄᴋᴡᴀʀᴅ: - @backward, /backward, #backward, @bwd, /bwd, #bwd",
         "🧹 Cʟᴇᴀʀ Qᴜᴇᴜᴇ: - @clear, /clear, #clear, @c, /c, #c",
+        " 🧑‍💻 Gᴇᴛ Pʀᴏғɪʟᴇ: - @get, /get, #get, @g, /g, #g",
         "💬 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴏʀ ɪɴᴏ̨ᴜɪʀɪᴇs, ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ {OwnersName} "
     ],
   "startup_message": "\uD83C\uDFA7 Sᴘᴏᴛɪғʏ Cʟᴜʙʜᴏᴜsᴇ Bᴏᴛ ɪs ʟɪᴠᴇ! \uD83D\uDE80 Rᴇᴏ̨ᴜᴇsᴛ sᴏɴɢs \uD83C\uDFB6 ᴏʀ ᴘʟᴀʏʟɪsᴛs \uD83C\uDFB5 ᴀɴᴅ ʟᴇᴛ ᴛʜᴇ ᴍᴜsɪᴄ ғʟᴏᴡ \uD83C\uDFA7. Tʏᴘᴇ << @help >> ғᴏʀ ᴅᴇᴛᴀɪʟs. Lᴇᴛ’s ɢᴇᴛ ᴛʜᴇ ᴘᴀʀᴛʏ sᴛᴀʀᴛᴇᴅ! \uD83C\uDF89",
-    "use_join": false,
+    "use_join": true,
     "use_msg": true,
-    "eligible_users": [ADD USER_ID HERE],
-    "helper_tokens": [
-        "<YOUR HELPER TOKENS>",
-        "<YOUR HELPER TOKENS>",
-        "<YOUR HELPER TOKENS>",
-        "<YOUR HELPER TOKENS>",
-        "<YOUR HELPER TOKENS>",
-        "<YOUR HELPER TOKENS>"
-    ]
+  "eligible_users": [1210770739, 1934695893, 1386001390]
 }
