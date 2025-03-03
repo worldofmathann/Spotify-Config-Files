@@ -15,6 +15,8 @@
                         "{emoji1} 🅢🅞🅝🅖:{track_name} {emoji4}{emoji2} 🅐🅛🅑🅤🅜: {album_name} {emoji5} 🅐🅓🅓🅔🅓 🅑🅨: {from_name} {emoji6} 🅠🅤🅔🅤🅔: {track_number} {emoji5} 🅡🅔🅜🅐🅘🅝🅘🅝🅖 🅣🅘🅜🅔: {duration} {emoji3}",
                         "{emoji2} 🇸​​​​​🇴​​​​​🇳​​​​​🇬​​​​​:{track_name} {emoji1}{emoji4} 🇦​​​​​🇱​​​​​🇧​​​​​🇺​​​​​🇲​​​​​: {album_name} {emoji3} 🇦​​​​​🇩​​​​​🇩​​​​​🇪​​​​​🇩​​​​​ 🇧​​​​​🇾​​​​​: {from_name} {emoji6} 🇶​​​​​🇺​​​​​🇪​​​​​🇺​​​​​🇪​​​​​: {track_number} {emoji5}"
         ],
+        "song_dedicated": ["{from_name} has dedicated the song '{track_name}' to {dedicated_to}! {emoji1}{emoji2}{emoji3}"],
+
         "song_not_found": "🎶🔍🚫 Oops! Can't find the song on Spotify 🚫🔍🎶"
     },
     "faded_sound_change": {
@@ -68,6 +70,13 @@
         "Non_Added": [
             "{emoji1} 🅽🅾🆆 🅿🅻🅰🆈🅸🅽🅶:  {song_name} {emoji2}{emoji3} 🅰🅻🅱🆄🅼: {album_name} {emoji4}",
             "{emoji1} 🇳​​​​​🇴​​​​​🇼​​​​​ 🇵​​​​​🇱​​​​​🇦​​​​​🇾​​​​​🇮​​​​​🇳​​​​​🇬​​​​​: {song_name} {emoji2}{emoji3} 🇦​​​​​🇱​​​​​🇧​​​​​🇺​​​​​🇲​​​​​: {album_name} {emoji4}"
+        ],
+      "Skipped": [
+            "{emoji1} {added_by} ᴘᴜᴛ ᴏɴ {song_name}, ʙᴜᴛ ᴛʜᴇʏ'ʀᴇ ᴍɪssɪɴɢ {emoji2}. Lᴇᴛ's sᴋɪᴘ ᴛʜɪs ᴛʀᴀᴄᴋ. {emoji4}",
+            "{emoji1} {added_by} ᴄʜᴏsᴇ {song_name}, ʙᴜᴛ ᴛʜᴇʏ'ʀᴇ ɴᴏᴛ ᴀʀᴏᴜɴᴅ ᴛᴏ ᴠɪʙᴇ ᴡɪᴛʜ ᴜs {emoji2}. Lᴇᴛ's sᴋɪᴘ ɪᴛ! {emoji3}",
+        "{song_name} ᴡᴀs ᴀᴅᴅᴇᴅ ʙʏ {added_by} {emoji2}, ʙᴜᴛ ᴜɴғᴏʀᴛᴜɴᴀᴛᴇʟʏ, ᴛʜᴇʏ'ʀᴇ ᴍɪssɪɴɢ ᴛʜᴇ ᴊᴀᴍ! {emoji3} Sᴋɪᴘᴘɪɴɢ ғᴏʀ ɴᴏᴡ. {emoji4}",
+        "{song_name} ᴡᴀs ᴀᴅᴅᴇᴅ ʙʏ {added_by} {emoji2}, ʙᴜᴛ ᴛʜᴇʏ ᴀʀᴇɴ'ᴛ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴄʜ ᴛʜᴇ ᴠɪʙᴇ. {emoji3} Sᴋɪᴘᴘɪɴɢ ᴛʜɪs ᴏɴᴇ! {emoji4}",
+        "{emoji1} {song_name} ᴡᴀs ᴀᴅᴅᴇᴅ ʙʏ {added_by}, ʙᴜᴛ ᴜɴғᴏʀᴛᴜɴᴀᴛᴇʟʏ, ᴛʜᴇʏ ᴀʀᴇɴ'ᴛ ʜᴇʀᴇ ᴛᴏ ᴊᴀᴍ ᴡɪᴛʜ ᴜs. {emoji3} Sᴋɪᴘᴘɪɴɢ ɪᴛ ғᴏʀ ɴᴏᴡ! {emoji4}"
         ]
     },
     "blocked_list": {
@@ -188,7 +197,8 @@
     "Now_Without_Added": "Now Playing {song_name} "
   },
   "Help_Message": {
-  "message": "Hey {from_name} 👋, I have sent you the list of commands 📜 in a private message 📩. Please check your Inbox 📥 or Message Requests 📬."
+  "message": "Hey {from_name} 👋, I have sent you the list of commands 📜 in a private message 📩. Please check your Inbox 📥 or Message Requests 📬.",
+    "message1": "Hey {from_name} 👋, I sent you the user's profile picture URL 🌐. Click to preview 👀. Check your Inbox 📥 or Message Requests 📬."
 },
 
   "Welcome_Message": {
